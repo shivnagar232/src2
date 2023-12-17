@@ -1,0 +1,12 @@
+# railway.yml
+
+services:
+  - name: worker
+    type: docker
+    dockerfile: Dockerfile
+    env:
+      DEBIAN_FRONTEND: noninteractive
+
+commands:
+  - name: worker
+    command: bash bash.sh
