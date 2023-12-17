@@ -50,8 +50,8 @@ async def remt(event):
 async def start_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.inline("SET THUMB.", data="set"),
-         Button.inline("REM THUMB.", data="rem")],
+        [Button.url("Visit GitHub", url="https://github.com/devgaganin"),
+         Button.url("Try V2", url="https://t.me/bdysplv2bot")],
         [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
     ]
 
